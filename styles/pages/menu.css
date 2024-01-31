@@ -1,0 +1,74 @@
+/*********** MENU SECTION MENU ***********/
+.titleMenuContainer {
+  margin-left: 9.688rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.titleMenuContainer span {
+  color: var(--red-highlight);
+}
+
+.menuContainer {
+  background-color: var(--white);
+  margin-left: 9.688rem;
+  margin-right: 9.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.938rem;
+}
+
+.menuContainer img {
+  margin-top: 4.188rem;
+}
+
+.menuContainer__plats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.875rem;
+  margin-bottom: 4.5rem;
+}
+
+.menuContainer__plats h2 {
+  font-size: 1.688rem;
+  text-underline-offset: 0.688rem;
+  text-decoration-thickness: 0.125rem;
+}
+.menuContainer__plats p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .titleMenuContainer {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 1.813rem;
+  }
+
+  .titleMenuContainer p {
+    display: none;
+  }
+
+  .menuContainer img {
+    margin-top: 1.25rem;
+    width: 64px;
+    height: 64px;
+  }
+
+  .menuContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 1.5rem;
+  }
+
+  .description {
+    display: none;
+  }
+  .menuContainer__plats {
+    gap: 1.25rem;
+    margin-bottom: 2.125rem;
+  }
+}

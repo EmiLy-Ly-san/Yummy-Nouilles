@@ -1,0 +1,25 @@
+.footerContainer {
+  background-color: var(--black);
+  margin-top: 4.5rem;
+  min-height: 216px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3.5rem;
+}
+.footerContainer img[src*="maps"] {
+  margin-right: 4.5rem;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    min-height: 184px;
+    display: flex;
+    justify-content: center;
+    gap: 2.25rem;
+  }
+
+  .footerContainer img[src*="maps"] {
+    margin-right: 0;
+  }
+}

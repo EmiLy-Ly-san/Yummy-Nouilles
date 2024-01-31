@@ -1,0 +1,113 @@
+/*********** Definir des variables globales pour le design system ***********/
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600&display=swap");
+
+/*********** MODULES ***********/
+@import "pages/home.css";
+@import "pages/menu.css";
+@import "pages/contact.css";
+@import "modules/app-bar.css";
+@import "modules/command-bar.css";
+@import "modules/clickandcollect.css";
+@import "modules/footer-bar.css";
+@import "modules/contact-bar.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /*COLORS*/
+  --red-highlight: #d2483d;
+  --light-grey: #f3f3f3;
+  --white: #ffffff;
+  --black: #000000;
+
+  /*TEXT CONFIGURATION*/
+  --body-font: "Montserrat", sans-serif;
+  --body-highlight-font: "Montserrat", sans-serif;
+  --body-font-size: 1.25rem;
+  --body-highlight-font-size: 1.25rem;
+  --body-font-weight: 400;
+  --body-highlight-font-weight: 600;
+  --body-line-height: 1.5rem;
+  --body-highlight-line-height: 1.5rem;
+
+  --header-font: "Bebas Neue", sans-serif;
+  --header-font-size: 4.5rem;
+  --header-font-weight: 400;
+  --header-line-height: 5.375rem;
+
+  --title-font: "Bebas Neue", sans-serif;
+  --title-font-size: 1.5rem;
+  --title-font-weight: 400;
+  --title-line-height: 1.75rem;
+}
+
+/*********** GLOBAL ELEMENTS ***********/
+
+body {
+  background-color: var(--light-grey);
+  font-style: normal;
+  font-family: var(--body-font);
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  color: var(--black);
+}
+
+h1 {
+  font-style: normal;
+  font-family: var(--header-font);
+  font-size: var(--header-font-size);
+  font-weight: var(---header-font-weight);
+  line-height: var(--header-line-height);
+  color: var(--black);
+}
+
+h2 {
+  font-style: normal;
+  font-family: var(--title-font);
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+  line-height: var(---title-line-height);
+  color: var(--black);
+  text-decoration: underline var(--red-highlight);
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.188rem;
+}
+
+h3 {
+  font-style: normal;
+  font-family: var(--body-highlight-font-size);
+  font-size: var(--body-font-size);
+  font-weight: var(---body-highlight-font-weight);
+  line-height: var(--body-highlight-line-height);
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  /* VARIABLES MOBILES */
+  :root {
+    --body-font: "Montserrat", sans-serif;
+    --body-highlight-font: "Montserrat", sans-serif;
+    --body-font-size: 1rem;
+    --body-highlight-font-size: 1rem;
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --body-line-height: 1.25rem;
+    --body-highlight-line-height: 1.25rem;
+
+    --header-font: "Bebas Neue", sans-serif;
+    --header-font-size: 2.5rem;
+    --header-font-weight: 400;
+    --header-line-height: 3rem;
+
+    --title-font: "Bebas Neue", sans-serif;
+    --title-font-size: 1.25rem;
+    --title-font-weight: 400;
+    --title-line-height: 1.5rem;
+  }
+}

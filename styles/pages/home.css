@@ -1,0 +1,151 @@
+/*********** HEADBAND SECTION INDEX**********/
+.headband {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6.5rem;
+}
+
+.headband__text {
+  padding-right: 7.5rem;
+}
+
+.headband__text-paragraphe {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.headband__text-paragraphe span {
+  color: var(--red-highlight);
+}
+
+/********* RESTAURANTS SECTION INDEX **********/
+.restaurantsContainer__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 2.438rem;
+}
+
+.restaurantsContainer__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 7.125rem;
+  margin-bottom: 4.5rem;
+}
+
+/********** SAVOIR FAIRE ET SOCIAL SECTION INDEX **********/
+.savoirFaireContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1158px;
+  margin: auto;
+  margin-top: 2.25rem;
+}
+
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 2.25rem;
+}
+
+.imgSocial {
+  display: flex;
+  flex-direction: column;
+  gap: 4.375rem;
+}
+
+.imgSocial img {
+  margin-right: 2.187rem;
+  margin-left: 2.187rem;
+}
+
+@media (max-width: 768px) {
+  .headband {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.375rem;
+    gap: 4.5rem;
+  }
+
+  .headband__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5.125rem;
+    padding-left: 5.125rem;
+  }
+
+  .headband__text-paragraphe {
+    text-align: center;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .headband img {
+    width: 232px;
+    height: 232px;
+  }
+  .restaurantsContainer__title {
+    margin-top: 4.5rem;
+  }
+
+  .restaurantsContainer__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.625rem;
+    margin-bottom: 4.25rem;
+  }
+
+  .savoirFaireContainer {
+    margin-top: 2rem;
+  }
+
+  .savoirFaireContainer p {
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .socialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2.25rem;
+  }
+
+  .imgSocial {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .imgSocialColumn1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.813rem;
+    margin-left: 3.813rem;
+    gap: 2rem;
+  }
+
+  .imgSocialColumn2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3.813rem;
+    margin-left: 3.813rem;
+    gap: 2rem;
+  }
+}
