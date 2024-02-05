@@ -1,0 +1,30 @@
+/*********** ADRESSES SECTION CONTACT ***********/
+.adressesContainer__title {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+}
+
+.adressesContainer__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 10.5rem;
+}
+
+@media (max-width: 768px) {
+  .adressesContainer__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 4.5rem;
+    text-align: center;
+  }
+  .adressesContainer__text strong {
+    font-size: 1.375rem;
+  }
+}

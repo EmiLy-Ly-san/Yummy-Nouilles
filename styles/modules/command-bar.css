@@ -1,0 +1,25 @@
+.commandBar {
+  background-color: var(--red-highlight);
+  min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.commandBar p {
+  margin-top: 3.75rem;
+  color: var(--white);
+}
+
+.commandBar a {
+  margin-bottom: 3.75rem;
+}
+
+@media (max-width: 768px) {
+  .commandBar {
+    gap: 1.938rem;
+    margin-top: 2.563rem;
+    margin-bottom: 2.563rem;
+  }
+}
